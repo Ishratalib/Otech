@@ -1,40 +1,43 @@
-# O-Tech — IT Solutions & Services Website
+# O-Tech — IT Solutions & Services Website 💻
 
-O-Tech is a responsive IT solutions and services website built with a modern frontend design. The website includes sections for services, case studies, testimonials, pricing plans, team members, and contact information.
+O-Tech is a responsive IT solutions and services website built with **HTML5, CSS3, Bootstrap, JavaScript, jQuery, and Owl Carousel**. The project features a modern business-style interface with service sections, case studies, testimonials, pricing, team information, and a contact section.
 
 ## 🌐 Live Demo
 
-**Live Website:**
-View O-Tech Live
-(https://ishratalib.github.io/Otech/)
+[View Live Demo](https://ishratotech.netlify.app/)
 
+---
 
-## 📌 Features
+## ✨ Features
 
-* Responsive navigation bar
-* Hero/banner section
-* Services section
-* Case studies section
-* Testimonials carousel
-* Team members carousel
-* Pricing plans
-* Contact section
-* Responsive layout for different screen sizes
-* Interactive buttons and navigation
-* Custom hover effects and CSS animations
-* Mobile navigation menu
-* Font Awesome icons
-* Responsive carousels using Owl Carousel
+* 🖥️ Responsive IT services website
+* 🎯 Modern hero section
+* 💼 Services section
+* 📊 Case studies section
+* 💬 Customer testimonials
+* 💰 Pricing section
+* 👥 Team section
+* 📩 Contact section
+* 📱 Responsive mobile navigation
+* 🔄 Owl Carousel sliders
+* ✨ Interactive hover effects
+* 🎨 Custom CSS styling
+* 📐 Responsive layouts for different screen sizes
+
+---
 
 ## 🛠️ Technologies Used
 
-* **HTML5** — Website structure
-* **CSS3** — Custom styling, layouts, animations, and responsive design
-* **Bootstrap 5** — Responsive layout, components, cards, buttons, and utilities
-* **JavaScript** — Frontend interactions and mobile menu functionality
-* **jQuery** — JavaScript library used with Owl Carousel
-* **Owl Carousel 2** — Responsive sliders and carousels
-* **Font Awesome** — Icons throughout the website
+* **HTML5** — Website structure and content
+* **CSS3** — Custom styling and responsive design
+* **Bootstrap 5** — Layout and responsive utilities
+* **JavaScript** — Interactive functionality
+* **jQuery** — Carousel initialization and DOM functionality
+* **Owl Carousel** — Responsive content sliders
+* **Font Awesome** — Icons
+* **SVG/Images** — Visual assets and illustrations
+
+---
 
 ## 📂 Project Structure
 
@@ -42,96 +45,187 @@ View O-Tech Live
 O-Tech/
 │
 ├── index.html
-├── contact.html
 ├── styles.css
 ├── script.js
+├── Contactus.html
 │
-└── assets/
-    └── img/
-        ├── icons/
-        ├── team/
-        ├── studies/
-        ├── testimonial/
-        └── footer/
+└── images/
+    └── project assets
 ```
 
-> The exact folder names may vary depending on the version of the project you download.
+---
 
-## 💻 How to Run the Project Locally
+## 📄 File Overview
 
-This is a frontend project, so **no PHP, database, Node.js, or server setup is required**.
+### `index.html`
 
-### 1. Clone the repository
+Contains the main structure of the O-Tech website, including:
+
+* Navigation
+* Hero section
+* Services
+* Case studies
+* Testimonials
+* Pricing
+* Team section
+* Contact/footer content
+
+### `styles.css`
+
+Contains the custom styling for the website, including:
+
+* Typography
+* Colors
+* Layout
+* Spacing
+* Hover effects
+* Animations
+* Responsive styling
+* Mobile layouts
+
+### `script.js`
+
+Contains the JavaScript functionality used by the project, including:
+
+* Mobile menu functionality
+* Owl Carousel initialization
+* Responsive carousel settings
+* Interactive page behavior
+
+### `Contactus.html`
+
+Contains the dedicated contact page for the website.
+
+---
+
+## 🚀 How to Run Locally
+
+This is a **static frontend project**, so no PHP, Node.js, database, or backend setup is required.
+
+### 1. Clone the Repository
 
 Open your terminal and run:
+
+```bash
+git clone "YOUR_REPOSITORY_URL"
+```
+
+**For example:**
 
 ```bash
 git clone https://github.com/Ishratalib/Otech.git
 ```
 
-### 2. Open the project folder
+Then move into the project folder:
 
 ```bash
-cd O-Tech
+cd Otech
 ```
 
-### 3. Run the website
+You can also download the repository as a ZIP file and extract it.
 
-Simply open:
+### 2. Open the Project
+
+Make sure the main files and assets remain together:
+
+```text
+index.html
+styles.css
+script.js
+Contactus.html
+images/
+```
+
+The project depends on its asset paths, so avoid moving individual files out of their original folders.
+
+### 3. Run the Project
+
+You can open:
 
 ```text
 index.html
 ```
 
-in your web browser.
+directly in your browser.
 
-You can also open the project using **Visual Studio Code** and use the **Live Server** extension for a better development experience.
+For development, **VS Code Live Server** is recommended:
 
-### Using VS Code + Live Server
-
-1. Open the project folder in Visual Studio Code.
-2. Install the **Live Server** extension if you don't already have it.
+1. Open the project folder in VS Code.
+2. Install the **Live Server** extension.
 3. Right-click `index.html`.
 4. Select **Open with Live Server**.
 5. The website will open in your browser.
 
-## 🌐 External Libraries
-
-The project uses several frontend libraries loaded through CDN:
-
-* Bootstrap
-* Font Awesome
-* jQuery
-* Owl Carousel
-
-An internet connection may therefore be required when running the project locally because these libraries are loaded from external CDN sources.
+---
 
 ## 📱 Responsive Design
 
-The website is designed to work across different screen sizes, including:
+The website is designed to adapt to different screen sizes.
 
-* Desktop
-* Laptop
-* Tablet
-* Mobile devices
+The responsive layout adjusts elements for:
 
-Responsive layouts and carousel configurations are used to adapt the content to different screen widths.
+* 📱 Mobile
+* 📲 Tablet
+* 💻 Desktop
+
+The project uses Bootstrap responsive utilities together with custom CSS media queries.
+
+The mobile navigation also provides a dedicated mobile menu experience.
+
+---
+
+## 🔄 Interactive Components
+
+The project uses **Owl Carousel** for several content sections, including:
+
+* Case studies
+* Testimonials
+* Team content
+* Other responsive carousel sections
+
+Different responsive settings are applied depending on the screen width.
+
+---
+
+## 🎨 UI & Styling
+
+The website includes custom visual effects such as:
+
+* Button hover effects
+* Card hover effects
+* Custom animations
+* Responsive spacing
+* Rounded components
+* Custom typography
+* Business-style color and layout system
+
+Font Awesome is also used for interface icons.
+
+---
 
 ## 🎯 Project Purpose
 
-This project was created to demonstrate frontend web development skills, including:
+This project was built to practice:
 
-* Building responsive websites
-* Creating structured layouts with HTML
-* Styling interfaces with CSS
-* Using Bootstrap components and utilities
-* Adding JavaScript interactions
-* Implementing responsive content sliders
-* Creating modern UI effects and animations
+* HTML5 page structure
+* CSS3 styling
+* Bootstrap layouts
+* Responsive web design
+* JavaScript
+* jQuery
+* Owl Carousel
+* Interactive UI components
+* CSS animations
+* Mobile navigation
+* Building a complete business website
+
+---
 
 ## 👩‍💻 Author
 
 **Ishrat Talib**
+
+Frontend Web Development Project
 
 ### Technologies
 
