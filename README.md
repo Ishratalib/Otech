@@ -131,7 +131,7 @@ This project was created to demonstrate frontend web development skills, includi
 
 ## 👩‍💻 Author
 
-**Maria Khan**
+**Ishrat Talib**
 
 ### Technologies
 
