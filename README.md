@@ -5,7 +5,7 @@ O-Tech is a responsive IT solutions and services website built with a modern fro
 ## 🌐 Live Demo
 
 **Live Website:**
-**View O-Tech Live**
+View O-Tech Live
 (https://ishratalib.github.io/Otech/)
 
 
