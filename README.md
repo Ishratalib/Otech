@@ -1,32 +1,12 @@
-# O-Tech — IT Solutions & Services Website 💻
+# O-Tech — IT Solutions & Services Website
 
 O-Tech is a responsive IT solutions and services website built with **HTML5, CSS3, Bootstrap, JavaScript, jQuery, and Owl Carousel**. The project features a modern business-style interface with service sections, case studies, testimonials, pricing, team information, and a contact section.
 
-## 🌐 Live Demo
+## Live Demo
 
 [View Live Demo](https://ishratotech.netlify.app/)
 
----
-
-## ✨ Features
-
-* 🖥️ Responsive IT services website
-* 🎯 Modern hero section
-* 💼 Services section
-* 📊 Case studies section
-* 💬 Customer testimonials
-* 💰 Pricing section
-* 👥 Team section
-* 📩 Contact section
-* 📱 Responsive mobile navigation
-* 🔄 Owl Carousel sliders
-* ✨ Interactive hover effects
-* 🎨 Custom CSS styling
-* 📐 Responsive layouts for different screen sizes
-
----
-
-## 🛠️ Technologies Used
+## Technologies Used
 
 * **HTML5** — Website structure and content
 * **CSS3** — Custom styling and responsive design
@@ -39,7 +19,25 @@ O-Tech is a responsive IT solutions and services website built with **HTML5, CSS
 
 ---
 
-## 📂 Project Structure
+## Features
+
+* Responsive IT services website
+* Modern hero section
+* Services section
+* Case studies section
+* Customer testimonials
+* Pricing section
+* Team section
+* Contact section
+* Responsive mobile navigation
+* Owl Carousel sliders
+* Interactive hover effects
+* Custom CSS styling
+* Responsive layouts for different screen sizes
+
+---
+
+## Project Structure
 
 ```text
 O-Tech/
@@ -55,7 +53,7 @@ O-Tech/
 
 ---
 
-## 📄 File Overview
+## File Overview
 
 ### `index.html`
 
@@ -98,7 +96,7 @@ Contains the dedicated contact page for the website.
 
 ---
 
-## 🚀 How to Run Locally
+## How to Run Locally
 
 This is a **static frontend project**, so no PHP, Node.js, database, or backend setup is required.
 
@@ -158,15 +156,15 @@ For development, **VS Code Live Server** is recommended:
 
 ---
 
-## 📱 Responsive Design
+## Responsive Design
 
 The website is designed to adapt to different screen sizes.
 
 The responsive layout adjusts elements for:
 
-* 📱 Mobile
-* 📲 Tablet
-* 💻 Desktop
+* Mobile
+* Tablet
+* Desktop
 
 The project uses Bootstrap responsive utilities together with custom CSS media queries.
 
@@ -174,7 +172,7 @@ The mobile navigation also provides a dedicated mobile menu experience.
 
 ---
 
-## 🔄 Interactive Components
+## Interactive Components
 
 The project uses **Owl Carousel** for several content sections, including:
 
@@ -187,7 +185,7 @@ Different responsive settings are applied depending on the screen width.
 
 ---
 
-## 🎨 UI & Styling
+## UI & Styling
 
 The website includes custom visual effects such as:
 
@@ -203,7 +201,7 @@ Font Awesome is also used for interface icons.
 
 ---
 
-## 🎯 Project Purpose
+## Project Purpose
 
 This project was built to practice:
 
@@ -221,12 +219,8 @@ This project was built to practice:
 
 ---
 
-## 👩‍💻 Author
+## Author
 
 **Ishrat Talib**
 
 Frontend Web Development Project
-
-### Technologies
-
-`HTML5` · `CSS3` · `Bootstrap 5` · `JavaScript` · `jQuery` · `Owl Carousel` · `Font Awesome`
